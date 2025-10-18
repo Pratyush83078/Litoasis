@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    document.body.style.opacity="1";
     const booksView = document.getElementById('books-view');
     const searchInput = document.querySelector('.search-input');
     const viewButtons = document.querySelectorAll('.view-button');
