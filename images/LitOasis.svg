@@ -1,0 +1,12 @@
+ <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+      <!-- Open Book Pages -->
+      <rect x="8" y="16" width="20" height="32" fill="#F1C40F" rx="3"/>
+      <rect x="36" y="16" width="20" height="32" fill="#F1C40F" rx="3"/>
+      
+      <!-- Palm Tree Trunk (Centered over the book) -->
+      <path d="M32 28 C32 24, 36 22, 36 18" stroke="#8E44AD" stroke-width="2" fill="none"/>
+      
+      <!-- Palm Tree Leaves -->
+      <path d="M36 18 C40 14, 44 14, 48 18" stroke="#27AE60" stroke-width="2" fill="none"/>
+      <path d="M36 18 C32 14, 28 14, 24 18" stroke="#27AE60" stroke-width="2" fill="none"/>
+</svg>

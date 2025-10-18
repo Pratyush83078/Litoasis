@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LitOasis</title>
+    <link rel="icon" href="images/LitOasis.svg">
+    <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet'>
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body >
+    <!-- <div id="theme-switcher">
+        <button class="theme-btn active" data-theme="light" style="background-color: hsl(222, 68%, 96%)"></button>
+        <button class="theme-btn" data-theme="dark" style="background-color: hsl(222, 47%, 11%)"></button>
+        <button class="theme-btn" data-theme="blue" style="background-color: hsl(210, 100%, 97%)"></button>
+        <button class="theme-btn" data-theme="purple" style="background-color: hsl(270, 100%, 98%)"></button>
+    </div> -->
+
+
+    <div id="topbar">
+        <div id="left-bar">
+                <img src="images/LitOasis.svg" alt="LitOasis">
+            <h1><a href="#pdf-page">LitOasis</a></h1>
+            <p>Your premium destination for the next great read.</p>
+        </div>
+        <div id="right-bar"></div>
+    </div>
+    <div id="main-page">
+        <div id="header-left">
+            <div id="header-left-in-top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="105" height="105" viewBox="0 0 122 122" class="star-svg">
+                    <defs>
+                        <style></style>
+                    </defs>
+                    <path class="a"
+                        d="M228.333,295h-.2a68.3,68.3,0,0,0-1.742-12.121,67.128,67.128,0,0,0-3.764-11.288,66.4,66.4,0,0,0-5.583-10.242,65.432,65.432,0,0,0-7.2-8.983,63.97,63.97,0,0,0-8.608-7.511,62.2,62.2,0,0,0-9.814-5.826A60.312,60.312,0,0,0,169,233.283v-.2a60.308,60.308,0,0,0,22.089-5.585,62.136,62.136,0,0,0,9.7-5.658,63.871,63.871,0,0,0,8.54-7.3,65.338,65.338,0,0,0,7.189-8.735,66.328,66.328,0,0,0,5.643-9.97,67.051,67.051,0,0,0,3.9-11A68.107,68.107,0,0,0,228.031,173h.408a68.067,68.067,0,0,0,2.082,12.258,66.994,66.994,0,0,0,4.155,11.358,66.242,66.242,0,0,0,6.011,10.231,65.17,65.17,0,0,0,7.65,8.878,63.575,63.575,0,0,0,9.073,7.3,61.787,61.787,0,0,0,10.279,5.493A60.314,60.314,0,0,0,291,233.181h-.012a60.293,60.293,0,0,0-23.646,4.812,61.844,61.844,0,0,0-10.4,5.66,63.676,63.676,0,0,0-9.144,7.513,65.267,65.267,0,0,0-7.66,9.128,66.315,66.315,0,0,0-5.949,10.506,67.081,67.081,0,0,0-4.011,11.647A68.268,68.268,0,0,0,228.333,295Z"
+                        transform="translate(-169 -173)"></path>
+                </svg>
+            </div>
+            <div id="header-left-in-bottom">
+                <div class="img-container" id="img1">
+                    <img src="images/palm.png" />
+                </div>
+                <div class="line-box">
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="header-right">
+            <div id="header-right-in-top">
+                <div>
+                    <div></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="5rem" height="5rem" viewBox="0 0 122 122"
+                        class="star-svg">
+                        <defs>
+                            <style></style>
+                        </defs>
+                        <path class="a"
+                            d="M228.333,295h-.2a68.3,68.3,0,0,0-1.742-12.121,67.128,67.128,0,0,0-3.764-11.288,66.4,66.4,0,0,0-5.583-10.242,65.432,65.432,0,0,0-7.2-8.983,63.97,63.97,0,0,0-8.608-7.511,62.2,62.2,0,0,0-9.814-5.826A60.312,60.312,0,0,0,169,233.283v-.2a60.308,60.308,0,0,0,22.089-5.585,62.136,62.136,0,0,0,9.7-5.658,63.871,63.871,0,0,0,8.54-7.3,65.338,65.338,0,0,0,7.189-8.735,66.328,66.328,0,0,0,5.643-9.97,67.051,67.051,0,0,0,3.9-11A68.107,68.107,0,0,0,228.031,173h.408a68.067,68.067,0,0,0,2.082,12.258,66.994,66.994,0,0,0,4.155,11.358,66.242,66.242,0,0,0,6.011,10.231,65.17,65.17,0,0,0,7.65,8.878,63.575,63.575,0,0,0,9.073,7.3,61.787,61.787,0,0,0,10.279,5.493A60.314,60.314,0,0,0,291,233.181h-.012a60.293,60.293,0,0,0-23.646,4.812,61.844,61.844,0,0,0-10.4,5.66,63.676,63.676,0,0,0-9.144,7.513,65.267,65.267,0,0,0-7.66,9.128,66.315,66.315,0,0,0-5.949,10.506,67.081,67.081,0,0,0-4.011,11.647A68.268,68.268,0,0,0,228.333,295Z"
+                            transform="translate(-169 -173)"></path>
+                    </svg>
+                </div>
+            </div>
+            <div id="header-right-in-bottom">
+                <h1><a href="#pdf-page">Literary Oasis: Explore, Discover, Read</a></h1>
+                <h3>Explore an expansive collection of timeless <span>classics</span> and modern masterpieces.<br>
+                Find your next favorite read with our intuitive search tool.<br>
+                Embark on a literary journey that sparks imagination and insight.
+                </h3>
+                <div id="header-right-in-links">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                        <path
+                            d="M 23.857422 8.5 C 17.504717 8.5 11.602344 8.9526234 8.234375 9.65625 A 1.50015 1.50015 0 0 0 8.2128906 9.6621094 C 5.6754768 10.230693 3.2861897 12.048234 2.7832031 14.894531 A 1.50015 1.50015 0 0 0 2.78125 14.90625 C 2.394836 17.200265 2 20.190694 2 24.5 C 2 28.801151 2.3961903 31.712324 2.8847656 34.126953 C 3.4000756 36.889296 5.7342165 38.761817 8.3105469 39.337891 A 1.50015 1.50015 0 0 0 8.3476562 39.347656 C 11.86271 40.040284 17.598467 40.5 23.951172 40.5 C 30.303877 40.5 36.042686 40.04028 39.558594 39.347656 A 1.50015 1.50015 0 0 0 39.595703 39.337891 C 42.133117 38.769306 44.522404 36.951766 45.025391 34.105469 A 1.50015 1.50015 0 0 0 45.029297 34.083984 C 45.409789 31.743169 45.902812 28.755621 46 24.439453 A 1.50015 1.50015 0 0 0 46 24.40625 C 46 20.087697 45.50571 17.078675 45.023438 14.695312 C 44.512192 11.927074 42.175378 10.049478 39.595703 9.4726562 A 1.50015 1.50015 0 0 0 39.476562 9.4511719 C 36.0464 8.9689502 30.211115 8.5 23.857422 8.5 z M 20.15625 17.001953 C 20.526656 16.994297 20.909531 17.081906 21.269531 17.285156 L 29.873047 22.146484 C 31.324047 22.966484 31.324047 25.035469 29.873047 25.855469 L 21.269531 30.716797 C 19.830531 31.528797 18.037109 30.500328 18.037109 28.861328 L 18.037109 19.138672 C 18.037109 17.909422 19.045031 17.024922 20.15625 17.001953 z">
+                        </path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
+                        <path
+                            d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z">
+                        </path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 24 24">
+                        <path
+                            d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z">
+                        </path>
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
+                        <path
+                            d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z">
+                        </path>
+                    </svg>
+
+                    <svg fill="#000000" height="20px" width="20px" version="1.1" id="Capa_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 260.366 260.366" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M34.703,0.183C15.582,0.183,0.014,15.748,0,34.884C0,54.02,15.568,69.588,34.703,69.588 c19.128,0,34.688-15.568,34.688-34.704C69.391,15.75,53.83,0.183,34.703,0.183z">
+                                </path>
+                                <path
+                                    d="M60.748,83.531H8.654c-2.478,0-4.488,2.009-4.488,4.489v167.675c0,2.479,2.01,4.488,4.488,4.488h52.093 c2.479,0,4.489-2.01,4.489-4.488V88.02C65.237,85.539,63.227,83.531,60.748,83.531z">
+                                </path>
+                                <path
+                                    d="M193.924,81.557c-19.064,0-35.817,5.805-46.04,15.271V88.02c0-2.48-2.01-4.489-4.489-4.489H93.424 c-2.479,0-4.489,2.009-4.489,4.489v167.675c0,2.479,2.01,4.488,4.489,4.488h52.044c2.479,0,4.489-2.01,4.489-4.488v-82.957 c0-23.802,4.378-38.555,26.227-38.555c21.526,0.026,23.137,15.846,23.137,39.977v81.535c0,2.479,2.01,4.488,4.49,4.488h52.068 c2.478,0,4.488-2.01,4.488-4.488v-91.977C260.366,125.465,252.814,81.557,193.924,81.557z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+                <div id="header-right-in-location">
+                    <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" height="20px" width="20px" viewBox="0 0 64 64"
+                        enable-background="new 0 0 64 64" xml:space="preserve">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span>3761 Minto Road, N.D.</span>
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="23px" height="23px"
+                        style="transform:translateY(4px)">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M9 16C2.814 9.813 3.11 5.134 5.94 3.012l.627-.467a1.483 1.483 0 0 1 2.1.353l1.579 2.272a1.5 1.5 0 0 1-.25 1.99L8.476 8.474c-.38.329-.566.828-.395 1.301.316.88 1.083 2.433 2.897 4.246 1.814 1.814 3.366 2.581 4.246 2.898.474.17.973-.015 1.302-.396l1.314-1.518a1.5 1.5 0 0 1 1.99-.25l2.276 1.58a1.48 1.48 0 0 1 .354 2.096l-.47.633C19.869 21.892 15.188 22.187 9 16z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span>(+91) 3123-456-789</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="pdf-page">
+        <header class="header">
+            <h1><svg xmlns="http://www.w3.org/2000/svg" width="5rem" height="5rem" viewBox="0 0 122 122"
+                    class="star-svg" fill="#f0f" style="transform: rotate(0deg);">
+                    <defs>
+                        <style></style>
+                    </defs>
+                    <path class="a"
+                        d="M228.333,295h-.2a68.3,68.3,0,0,0-1.742-12.121,67.128,67.128,0,0,0-3.764-11.288,66.4,66.4,0,0,0-5.583-10.242,65.432,65.432,0,0,0-7.2-8.983,63.97,63.97,0,0,0-8.608-7.511,62.2,62.2,0,0,0-9.814-5.826A60.312,60.312,0,0,0,169,233.283v-.2a60.308,60.308,0,0,0,22.089-5.585,62.136,62.136,0,0,0,9.7-5.658,63.871,63.871,0,0,0,8.54-7.3,65.338,65.338,0,0,0,7.189-8.735,66.328,66.328,0,0,0,5.643-9.97,67.051,67.051,0,0,0,3.9-11A68.107,68.107,0,0,0,228.031,173h.408a68.067,68.067,0,0,0,2.082,12.258,66.994,66.994,0,0,0,4.155,11.358,66.242,66.242,0,0,0,6.011,10.231,65.17,65.17,0,0,0,7.65,8.878,63.575,63.575,0,0,0,9.073,7.3,61.787,61.787,0,0,0,10.279,5.493A60.314,60.314,0,0,0,291,233.181h-.012a60.293,60.293,0,0,0-23.646,4.812,61.844,61.844,0,0,0-10.4,5.66,63.676,63.676,0,0,0-9.144,7.513,65.267,65.267,0,0,0-7.66,9.128,66.315,66.315,0,0,0-5.949,10.506,67.081,67.081,0,0,0-4.011,11.647A68.268,68.268,0,0,0,228.333,295Z"
+                        transform="translate(-169 -173)"></path>
+                </svg>Book Store </h1>
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search books...">
+                </div>
+                <div class="view-controls">
+                    <button class="view-button active" data-view="grid">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                        </svg>
+                        Grid
+                    </button>
+                    <button class="view-button" data-view="compact">
+                        <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        Compact
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="books-container">
+            <div id="books-view" class="books-grid"></div>
+            <div class="pagination" id="pagination"></div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
